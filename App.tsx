@@ -1,20 +1,33 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import NAVIGATION_ROUTES from './src/constants/routes';
+//pages
+import { HomeScreen, HorozcopoScreen, TarifarioScreen, 
+         ClimaScreen, ConductoresScreen,
+          MultasScreen, NoticiasScreen, VehiculosScreen } from './src/pages';
+import { StatusBar } from 'react-native';
 
-export default function App() {
+
+const Stack = createNativeStackNavigator();
+
+function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name={NAVIGATION_ROUTES.HOME} component={HomeScreen} />
+        <Stack.Screen name={NAVIGATION_ROUTES.MULTAS} component={MultasScreen} />
+        <Stack.Screen name={NAVIGATION_ROUTES.VEHICULOS} component={VehiculosScreen} />
+        <Stack.Screen name={NAVIGATION_ROUTES.CONDUCTORES} component={ConductoresScreen} />
+        <Stack.Screen name={NAVIGATION_ROUTES.HOROZCOPOS} component={HorozcopoScreen} />
+        <Stack.Screen name={NAVIGATION_ROUTES.TARIFARIO} component={TarifarioScreen} />
+        <Stack.Screen name={NAVIGATION_ROUTES.CLIMA} component={ClimaScreen} />
+        <Stack.Screen name={NAVIGATION_ROUTES.NOTICIAS} component={NoticiasScreen} />
+      </Stack.Navigator>
+      <StatusBar animated={true} backgroundColor="#61dafb" />
+
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
