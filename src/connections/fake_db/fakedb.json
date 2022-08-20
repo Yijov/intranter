@@ -1,0 +1,157 @@
+
+{
+    "usuarios": [
+        { "id": 1, "username": "admin", "password": "admin" }
+    ],
+    "multas": [
+        { 
+            "id": 1, 
+            "codigo":"20009",
+            "nombreInfractor": "Herarclino", 
+            "apellidoInfractor": "Betances", 
+            "cedulaInfractor": "22400607391", 
+            "placaVehiculo": "A5421C719", 
+            "monto": 8000,
+            "fotoevidencia": "no disponible",
+            "tipoDeLicencia": "B",
+            "motivo": "maneja bajo influencia de alcohol", 
+            "latitud": "012.520.01",
+            "longitud":"012.520.01",
+            "timestamp": "12/12/2019 12;58pm"
+            
+        },
+        { 
+            "id": 2, 
+            "codigo":"20009",
+            "nombreInfractor": "Herarclino", 
+            "apellidoInfractor": "Betances", 
+            "cedulaInfractor": "22400607391", 
+            "placaVehiculo": "A5421C719", 
+            "monto": 8000,
+            "fotoevidencia": "no disponible",
+            "tipoDeLicencia": "B",
+            "motivo": "maneja bajo influencia de alcohol", 
+            "latitud": "012.520.01",
+            "longitud":"012.520.01",
+            "timestamp": "12/12/2019 12;58pm"
+            
+        }
+    ],
+    "conductores": [
+        { 
+            "id": 1,
+             "nombre": "Herarclino", 
+             "apellido": "Betances", 
+             "cedula": "22400607391",
+             "foto": "no disponible",
+             "telefono": "8095556655",
+             "celular": "8095656655",
+             "licenciaId": 10000059,
+             "tipoLicencia":"B",  
+             "estadoLicencia":"activa"  
+        }
+    ],
+    "vehiculos": [
+        { 
+            "id": 1,
+             "marca": "honda",
+             "modelo": "cevic",
+             "color":"azul",
+             "año":"2021",
+             "nombrePropietario": "Herarclino", 
+             "ApellidoPropietario": "Betances", 
+             "cedula": "22400607391",
+             "placa": "A5421C719",
+             "tipoLicencia":"B"  
+        },
+        { 
+            "id": 2,
+             "marca": "toyota",
+             "modelo": "corola",
+             "color":"rojo", 
+             "año":"1993",
+             "nombrePropietario": "Herarclino", 
+             "ApellidoPropietario": "Betances", 
+             "cedula": "22400607391",
+             "placa": "A5421C719",
+             "tipoLicencia":"B"  
+        }
+    ]
+    ,
+    "noticias": [
+        { 
+            "id": 1,
+             "titular": "Se Anuncian apagones en todo el pais", 
+             "contenido": "El presidente de la republica  anunció este viernes apagones en todo el pais a partir de este lunes 25 de diciembre", 
+             "foto": "#no disponible", 
+             "autor": "Felipe Crespo",
+             "timeStamp": "28/12/2019 12:15pm"
+        },
+
+        { 
+            "id": 2,
+             "titular": "Se Anuncian apagones en todo el pais", 
+             "contenido": "El presidente de la republica  anunció este viernes apagones en todo el pais a partir de este lunes 25 de diciembre", 
+             "foto": "#no disponible", 
+             "autor": "Felipe Crespo",
+             "timeStamp": "28/12/2019 12:15pm"
+        }
+    ]
+    ,
+    "horozcopos": 
+        { 
+            "timeStamp": "25/08/2022",
+            "items":[
+                {
+                    "signo":"sagitatio",
+                    "consejo":"sepillate"
+                },
+                {
+                    "signo":"picis",
+                    "consejo":"come bien"
+                },
+                {
+                    "signo":"aquario",
+                    "consejo":"deja la chercha"
+                },
+                {
+                    "signo":"cancer",
+                    "consejo":"string"
+                },
+                {
+                    "signo":"geminis",
+                    "consejo":"vota 25"
+                },
+                {
+                    "signo":"virgo",
+                    "consejo":"ve a la peluqueria"
+                },
+                {
+                    "signo":"libra",
+                    "consejo":"viene un dinero de fuera"
+                },
+                {
+                    "signo":"escorpio",
+                    "consejo":"lo que estas pensando no te conviene"
+                },
+                {
+                    "signo":"tauro",
+                    "consejo":"suelta ese celular"
+                },
+                {
+                    "signo":"capricornio",
+                    "consejo":"el pollo esta muy caro"
+                },
+                {
+                    "signo":"aries",
+                    "consejo":"deja eso asi"
+                },
+                {
+                    "signo":"leo",
+                    "consejo":"no cojas mas fiao"
+                }
+            ]
+        }
+    
+  }
+

@@ -1,19 +1,6 @@
 export interface IHorozcopo{
-    fecha:string,
-    items:{
-    sagitario:IHorozcopoItem,
-    picis:IHorozcopoItem,
-    aquiario:IHorozcopoItem,
-    cancer:IHorozcopoItem,
-    geminis:IHorozcopoItem,
-    virgo:IHorozcopoItem,
-    libra:IHorozcopoItem,
-    escorpio:IHorozcopoItem,
-    tauro:IHorozcopoItem,
-    capricornio:IHorozcopoItem,
-    aries:IHorozcopoItem,
-    leo:IHorozcopoItem,
-    }
+    timeStamp:string,
+    items:IHorozcopoItem []
 }
 
 export interface IHorozcopoItem{
