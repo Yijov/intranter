@@ -1,12 +1,19 @@
-import { View, Text } from 'react-native'
+import { View, Text, ViewStyle } from 'react-native'
 import React from 'react'
+import HomeIcon from './HomeIcon'
+import {MAIN_NAVIGATION_ROUTES_AS_CONST} from '../../constants/routes'
 
 const Home = () => {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
+    <View style={{display:"flex", flexDirection:"row", flexWrap:"wrap", overflow:'hidden', alignItems:"center", justifyContent:"center" , paddingTop:26}}>
+      <HomeIcon name="card" route={MAIN_NAVIGATION_ROUTES_AS_CONST.MULTAS} />
+      <HomeIcon name="person" route={MAIN_NAVIGATION_ROUTES_AS_CONST.CONDUCTORES} />
+      <HomeIcon name="car-sport" route={MAIN_NAVIGATION_ROUTES_AS_CONST.VEHICULOS} />
+      <HomeIcon name="list" route={MAIN_NAVIGATION_ROUTES_AS_CONST.TARIFARIO} />
+      <HomeIcon name="cloud" route={MAIN_NAVIGATION_ROUTES_AS_CONST.CLIMA}/>
+      <HomeIcon name="newspaper" route={MAIN_NAVIGATION_ROUTES_AS_CONST.MEDIA}/>
     </View>
   )
 }
 
-export default Home
+export default Home;

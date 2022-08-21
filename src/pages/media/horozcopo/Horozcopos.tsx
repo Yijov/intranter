@@ -1,8 +1,8 @@
 import { View, Text } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import { IHorozcopo } from '../../models/Horozcopo'
+import { IHorozcopo } from '../../../models/Horozcopo'
 import HorozcopoItem from './HorozcopoItem'
-import ApIConnection from '../../connections/api/apo'
+import ApIConnection from '../../../connections/api/apo'
 const Horozcopos = () => {
   const [horozcopo, setHorozcopo] = useState<IHorozcopo|null>(null)
 
