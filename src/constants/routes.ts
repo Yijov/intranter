@@ -3,7 +3,7 @@
 //editar ambos
 
 const NAVIGATION_ROUTES={
-    HOROZCOPOS:"Horozcopo",    //main
+    HOROZCOPOS:"HOROZCOPO",    //main
     MULTAS:"Multas",    //main
     MULTAS_CONSULTAR:"Consultar Multas",
     MULTAS_CREAR:"Crear Multa",
@@ -11,7 +11,7 @@ const NAVIGATION_ROUTES={
     MEDIA:"Media",    //main
     CLIMA:"Clima",     //main
     VEHICULOS:"Vehiculos",    //main
-    NOTICIAS:"Noticias",    //main
+    NOTICIAS:"NOTICIAS",    //main
     CONDUCTORES:"Conductores",    //main
     AUTH:"Log In",
     HOME:"Home",

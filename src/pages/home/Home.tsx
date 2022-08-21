@@ -2,10 +2,11 @@ import { View, Text, ViewStyle } from 'react-native'
 import React from 'react'
 import HomeIcon from './HomeIcon'
 import {MAIN_NAVIGATION_ROUTES_AS_CONST} from '../../constants/routes'
+import HOMES_TYLES from './HomeStyles'
 
 const Home = () => {
   return (
-    <View style={{display:"flex", flexDirection:"row", flexWrap:"wrap", overflow:'hidden', alignItems:"center", justifyContent:"center" , paddingTop:26}}>
+    <View style={HOMES_TYLES.CONTAINER as ViewStyle}>
       <HomeIcon name="card" route={MAIN_NAVIGATION_ROUTES_AS_CONST.MULTAS} />
       <HomeIcon name="person" route={MAIN_NAVIGATION_ROUTES_AS_CONST.CONDUCTORES} />
       <HomeIcon name="car-sport" route={MAIN_NAVIGATION_ROUTES_AS_CONST.VEHICULOS} />

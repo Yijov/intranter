@@ -28,6 +28,7 @@ const Multas = () => {
         tabBarIcon: ({ color, size }) => iconConfig(route, color, size),
         tabBarActiveTintColor: 'blue',
         tabBarInactiveTintColor: 'gray',
+        headerTitleAlign:"center"
       })}>
       <Tab.Screen name={NAVIGATION_ROUTES.MULTAS_CONSULTAR} component={MultasConsulta}  />
       <Tab.Screen name={NAVIGATION_ROUTES.MULTAS_CREAR} component={CrearMulta} />

@@ -8,6 +8,7 @@ import Horozcopos from './horozcopo/Horozcopos';
 import { ParamListBase, RouteProp } from '@react-navigation/native';
 
 
+
 const Tab = createBottomTabNavigator();
 
 
@@ -26,6 +27,7 @@ const Media = () => {
         tabBarIcon: ({ color, size }) => iconConfig(route, color, size),
         tabBarActiveTintColor: 'blue',
         tabBarInactiveTintColor: 'gray',
+        headerTitleAlign:"center"
       })}>
       <Tab.Screen name={NAVIGATION_ROUTES.NOTICIAS} component={Noticias}  />
       <Tab.Screen name={NAVIGATION_ROUTES.HOROZCOPOS} component={Horozcopos} />

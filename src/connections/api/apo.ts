@@ -7,6 +7,7 @@ import Imulta from "../../models/Multa"
 import IVehiculo from "../../models/Vehiculo"
 import IUser from "../../models/User"
 import INoticia from "../../models/Noticia"
+import { ITarifa } from "../../models/Tarifario"
 import fakedb from "../fake_db/fakedb.json"
 
 
@@ -29,6 +30,9 @@ export default class ApIConnection{
    static getUsuarios= async ():Promise<IUser[]>=>{
     return fakedb.usuarios
    }
+   static getTarifas= async ():Promise<ITarifa[]>=>{
+      return fakedb.tarifario
+     }
    static getClima= async ():Promise<IHorozcopo>=>{
     let response= await axios.get<IHorozcopo>(this.apiResources.HOROZCOPO)
     return response.data;
