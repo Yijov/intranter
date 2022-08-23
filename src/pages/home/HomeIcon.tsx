@@ -5,6 +5,7 @@ import { useNavigation, NavigationProp } from '@react-navigation/native';
 import HOMES_TYLES from './HomeStyles';
 import { RootNavigationParamList } from '../../constants/routes';
 import {MAIN_NAVIGATION_ROUTES_AS_CONST} from '../../constants/routes';
+import { GENERAL_STYLE } from './../../constants/generalStyle';
 
 
 
@@ -17,7 +18,6 @@ interface iconProps{
 }
 
 
-
 const HomeIcon:React.FC<iconProps> = ({name, route}) => {
     const navigation = useNavigation<NavigationProp<RootNavigationParamList>>();
   return (
@@ -25,7 +25,7 @@ const HomeIcon:React.FC<iconProps> = ({name, route}) => {
     style={HOMES_TYLES.HOME_ICON_STYLE as ViewStyle} 
     onPress={()=> navigation.navigate(route)}>
 
-        <Ionicons name={name} size={130} color={"#61daf7"} key={route}/>
+        <Ionicons name={name} size={130} color={GENERAL_STYLE.mainColor} key={route}/>
         <Text>{route.toUpperCase()}</Text>
 
     </TouchableOpacity>

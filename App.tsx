@@ -3,6 +3,7 @@ import { StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import NAVIGATION_ROUTES from './src/constants/routes';
+import { GENERAL_STYLE } from './src/constants/generalStyle';
 //pages
 import { HomeScreen, TarifarioScreen, ClimaScreen, Media ,
   ConductoresScreen, MultasScreen, VehiculosScreen } from './src/pages';
@@ -23,7 +24,7 @@ function App() {
         <Stack.Screen name={NAVIGATION_ROUTES.CLIMA} component={ClimaScreen} />
         <Stack.Screen name={NAVIGATION_ROUTES.MEDIA} component={Media} />
       </Stack.Navigator>
-      <StatusBar animated={true} backgroundColor="#61dafb" />
+      <StatusBar animated={true} backgroundColor={GENERAL_STYLE.mainColor} />
 
     </NavigationContainer>
   );

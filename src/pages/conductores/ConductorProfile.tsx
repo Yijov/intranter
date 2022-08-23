@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, Image, StyleSheet} from 'react-native'
-import IConductor from '../../models/Conductor'
+import IConductor from '../../models/Conductor';
+import { GENERAL_STYLE } from './../../constants/generalStyle';
 
 const ConductorProfile:React.FC<{conductor:IConductor}> = ({conductor}) => {
 
@@ -23,7 +24,7 @@ const styles = StyleSheet.create({
     container: {
         display:"flex",
         alignItems:"center",
-        backgroundColor:"orange",
+        backgroundColor:GENERAL_STYLE.secundaryColor,
         padding:12,
         height:"82%"
     },

@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, Image, StyleSheet} from 'react-native'
 import IVehiculo from '../../models/Vehiculo'
+import { GENERAL_STYLE } from './../../constants/generalStyle';
 const VehiculoProfile:React.FC<{vehiculo:IVehiculo}> = ({vehiculo}) => {
 
     return (
@@ -19,7 +20,7 @@ const styles = StyleSheet.create({
     container: {
         display:"flex",
         alignItems:"center",
-        backgroundColor:"orange",
+        backgroundColor:GENERAL_STYLE.secundaryColor,
         padding:12,
         height:"82%"
     },
