@@ -117,9 +117,10 @@
     [
         { 
             "id": 1,
-             "marca": "Honda",
-             "modelo": "Civic",
+             "marca": "Toyota",
+             "modelo": "Corola",
              "color":"azul",
+             "foto":"https://cs.copart.com/v1/AUTH_svc.pdoc00001/PIX165/ff63819b-73b9-432c-b33f-38584e3cfd76.JPG",
              "año":"2021",
              "nombrePropietario": "Herarclino", 
              "ApellidoPropietario": "Betances", 
@@ -128,10 +129,11 @@
         },
         { 
             "id": 2,
-             "marca": "Toyota",
-             "modelo": "Corola",
-             "color":"rojo", 
-             "año":"1993",
+             "marca": "Honda",
+             "modelo": "Civic",
+             "color":"rojo",
+             "foto":"https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/vK0AAOSwX0xiKVBg/$_3.jpg", 
+             "año":"2001",
              "nombrePropietario": "Herarclino", 
              "ApellidoPropietario": "Betances", 
              "cedulaPropietario": "22400607391",

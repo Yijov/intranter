@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, Image, StyleSheet, Dimensions } from 'react-native'
+import { View, Text, Image, StyleSheet} from 'react-native'
 import IConductor from '../../models/Conductor'
 
 const ConductorProfile:React.FC<{conductor:IConductor}> = ({conductor}) => {

@@ -4,6 +4,7 @@ export default interface IVehiculo{
     modelo: string;
     color: string;
     año: string;
+    foto:string;
     nombrePropietario: string;
     ApellidoPropietario: string;
     cedulaPropietario: string;
