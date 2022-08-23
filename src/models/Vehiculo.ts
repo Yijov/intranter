@@ -6,7 +6,7 @@ export default interface IVehiculo{
     año: string;
     nombrePropietario: string;
     ApellidoPropietario: string;
-    cedula: string;
+    cedulaPropietario: string;
     placa: string;
-    tipoLicencia: string;
 }
+

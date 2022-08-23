@@ -27,7 +27,7 @@ export default function Tarifario() {
           <DataTable.Title>TARIFAS</DataTable.Title>
         </DataTable.Header>
 
-        {Tarifas?.map(tarifa=><TarifarioItem tarifa={tarifa} />)}
+        {Tarifas?.map(tarifa=><TarifarioItem tarifa={tarifa} key={tarifa.infraccion}/>)}
 
       </DataTable>
     </ScrollView>
