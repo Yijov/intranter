@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
         width:"100%", 
         padding:20, 
         backgroundColor:GENERAL_STYLE.mainColor, 
-        marginBottom:15
+        marginBottom:2
     },
   
     motivo:{

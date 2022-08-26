@@ -17,8 +17,8 @@
             "fotoevidencia":"https://practicatest.com/static/img/test/CL/16e17f5d3913aa39ece6817dcafd023b.jpg",
             "tipoDeLicencia":"B",
             "motivo":"Maneja bajo influencia de alcohol", 
-            "latitud":"012.520.01",
-            "longitud":"012.520.01",
+            "latitud":"18.462495312454095",  
+            "longitud":"-69.93606165916758", 
             "timestamp":"2022-08-19 03:14:07"
             
         },
@@ -33,8 +33,8 @@
             "fotoevidencia":"https://plumasatomicas.com/wp-content/uploads/2022/08/Detienen-a-conductor-por-manejar-sin-cinturon-y-descubren-medio-millon-de-pesos-ocultos-en-su-auto.jpg",
             "tipoDeLicencia":"B",
             "motivo":"Maneja sin centuron de seguridad", 
-            "latitud":"012.520.01",
-            "longitud":"012.520.01",
+            "latitud":"18.46545567934194",  
+            "longitud":"-69.93021299911297",
             "timestamp":"2022-08-20 03:14:07"
             
         },
@@ -49,8 +49,8 @@
             "fotoevidencia": "https://www.informador.mx/__export/1506097939708/sites/elinformador/img/historico/1/1422186.jpg_788543494.jpg",
             "tipoDeLicencia": "B",
             "motivo": "Usa celular mientras conduce", 
-            "latitud": "012.520.01",
-            "longitud":"012.520.01",
+            "latitud": "18.478652197454405", 
+            "longitud":"-69.937458586704",
             "timestamp": "2021-08-15 03:14:07"
             
         }
