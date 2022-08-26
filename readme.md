@@ -16,8 +16,6 @@
  - [x] Noticias
  - [x] Horozcopo
 
-
-
   <div display="flex" margin-bottom="15rem">
     <img src="./docs/images/one.jpeg" alt="home menu" title="A cute kitten" width="250" /> 
     <img src="./docs/images/tow.jpeg" alt="map" title="A cute kitten" width="250" /> 
