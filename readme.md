@@ -17,6 +17,16 @@
  - [x] Horozcopo
 
 
-![alt text](./docs/images/one.jpeg)  ![alt text](./docs/images/tow.jpeg) ![alt text](./docs/images/thre.jpeg)
-![alt text](./docs/images/four.jpeg) ![alt text](./docs/images/five.jpeg)![alt text](./docs/images/six.jpeg)
-![alt text](./docs/images/seven.jpeg) ![alt text](./docs/images/eight.jpeg) ![alt text](./docs/images/nine.jpeg)
+
+  <div display="flex" margin-bottom="15rem">
+    <img src="./docs/images/one.jpeg" alt="home menu" title="A cute kitten" width="250" /> 
+    <img src="./docs/images/tow.jpeg" alt="map" title="A cute kitten" width="250" /> 
+    <img src="./docs/images/thre.jpeg" alt="home" title="A cute kitten" width="250" />
+    <img src="./docs/images/four.jpeg" alt="home" title="A cute kitten" width="250" /> 
+    <img src="./docs/images/five.jpeg" alt="home" title="A cute kitten" width="250" /> 
+    <img src="./docs/images/six.jpeg" alt="home" title="A cute kitten" width="250" /> 
+  </div>
+
+
+
+
