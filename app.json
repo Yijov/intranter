@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/icon/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.yirbett.intranter"
     },
     "web": {
       "favicon": "./src/assets/icon/favicon.png"
